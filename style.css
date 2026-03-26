@@ -6,7 +6,7 @@ body {
   color: #fff;
 }
 
-/* 🔝 Navbar */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,6 @@ nav a:hover {
   color: #00f7ff;
 }
 
-/* 📦 Main Container */
 .container {
   width: 90%;
   max-width: 800px;
@@ -39,14 +38,14 @@ nav a:hover {
   padding: 20px;
 }
 
-/* 🔥 Heading */
+
 h1, h2 {
   text-align: center;
   color: #00f7ff;
   margin-bottom: 20px;
 }
 
-/* 🔍 Search */
+
 #search {
   width: 100%;
   padding: 12px;
@@ -56,7 +55,7 @@ h1, h2 {
   margin-bottom: 15px;
 }
 
-/* ✍️ Input & Textarea */
+
 input, textarea {
   width: 100%;
   padding: 12px;
@@ -68,7 +67,7 @@ input, textarea {
   color: #fff;
 }
 
-/* 🔘 Buttons */
+
 button {
   padding: 10px 15px;
   margin: 5px 5px 10px 0;
@@ -86,7 +85,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* 📝 Blog Card */
+
 .card {
   background: #2f2f4f;
   padding: 20px;
@@ -96,24 +95,24 @@ button:hover {
   transition: 0.3s;
 }
 
-/* 🖼️ Image inside card */
+
 .card img {
   margin-top: 10px;
   border-radius: 10px;
   max-width: 100%;
 }
 
-/* 🔘 Buttons inside card */
+
 .card button {
   margin-top: 10px;
 }
 
-/* ✨ Card Hover */
+
 .card:hover {
   transform: translateY(-8px);
 }
 
-/* 🧾 Blog Title */
+
 .card h3 {
   font-size: 22px;
   color: #00f7ff;
@@ -124,12 +123,12 @@ button:hover {
   padding-left: 10px;
 }
 
-/* 👤 Author */
+
 small {
   color: #aaa;
 }
 
-/* 🔐 Login Page (Glass Effect Upgrade) */
+
 .login-container {
   width: 320px;
   margin: 120px auto;
@@ -144,24 +143,24 @@ small {
   transition: 0.3s;
 }
 
-/* ✨ Hover effect */
+
 .login-container:hover {
   transform: scale(1.03);
 }
 
-/* 🔐 Login Heading */
+
 .login-container h2 {
   color: #00f7ff;
   margin-bottom: 20px;
   text-shadow: 0 0 10px #00f7ff;
 }
 
-/* 🔐 Input spacing */
+
 .login-container input {
   margin-bottom: 15px;
 }
 
-/* 🔐 Button full width */
+
 .login-container button {
   width: 100%;
 }

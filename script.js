@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 let posts = JSON.parse(localStorage.getItem("posts")) || [];
 let currentUser = localStorage.getItem("currentUser");
 
-// ✅ CREATE POST
+
 function addPost() {
   let title = document.getElementById("title").value;
   let content = document.getElementById("content").value;
@@ -52,7 +52,7 @@ function addPost() {
   window.location.href = "index.html";
 }
 
-// ✅ DISPLAY POSTS
+
 function displayPosts() {
   let container = document.getElementById("posts");
   if (!container) return;
@@ -82,7 +82,7 @@ function displayPosts() {
   });
 }
 
-// ✅ DELETE POST (with confirmation)
+
 function deletePost(id) {
   let confirmDelete = confirm("Are you sure to delete this post?");
   
@@ -93,13 +93,13 @@ function deletePost(id) {
   }
 }
 
-// ✅ GO TO EDIT PAGE
+
 function editPost(id) {
   localStorage.setItem("editId", id);
   window.location.href = "edit.html";
 }
 
-// ✅ LOAD EDIT DATA
+
 function loadEditData() {
   let id = localStorage.getItem("editId");
   if (!id) return;
@@ -118,7 +118,7 @@ function loadEditData() {
   }
 }
 
-// ✅ UPDATE POST
+
 function updatePost() {
   let id = localStorage.getItem("editId");
   let title = document.getElementById("title").value;
@@ -138,7 +138,7 @@ function updatePost() {
   window.location.href = "index.html";
 }
 
-// ✅ SEARCH FUNCTION
+
 let searchInput = document.getElementById("search");
 
 if (searchInput) {
@@ -168,7 +168,7 @@ if (searchInput) {
   });
 }
 
-// ✅ AUTO LOAD
+
 document.addEventListener("DOMContentLoaded", function () {
   displayPosts();
   loadEditData();
