@@ -1,0 +1,167 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* 🔝 Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b1b2f;
+  padding: 15px 30px;
+}
+
+nav h2 {
+  color: #00f7ff;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00f7ff;
+}
+
+/* 📦 Main Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 🔥 Heading */
+h1, h2 {
+  text-align: center;
+  color: #00f7ff;
+  margin-bottom: 20px;
+}
+
+/* 🔍 Search */
+#search {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+/* ✍️ Input & Textarea */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: #2f2f4f;
+  color: #fff;
+}
+
+/* 🔘 Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px 5px 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: #00f7ff;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00c2cc;
+  transform: scale(1.05);
+}
+
+/* 📝 Blog Card */
+.card {
+  background: #2f2f4f;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+/* 🖼️ Image inside card */
+.card img {
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* 🔘 Buttons inside card */
+.card button {
+  margin-top: 10px;
+}
+
+/* ✨ Card Hover */
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* 🧾 Blog Title */
+.card h3 {
+  font-size: 22px;
+  color: #00f7ff;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-left: 4px solid #00f7ff;
+  padding-left: 10px;
+}
+
+/* 👤 Author */
+small {
+  color: #aaa;
+}
+
+/* 🔐 Login Page (Glass Effect Upgrade) */
+.login-container {
+  width: 320px;
+  margin: 120px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+  transition: 0.3s;
+}
+
+/* ✨ Hover effect */
+.login-container:hover {
+  transform: scale(1.03);
+}
+
+/* 🔐 Login Heading */
+.login-container h2 {
+  color: #00f7ff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00f7ff;
+}
+
+/* 🔐 Input spacing */
+.login-container input {
+  margin-bottom: 15px;
+}
+
+/* 🔐 Button full width */
+.login-container button {
+  width: 100%;
+}

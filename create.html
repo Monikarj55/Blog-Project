@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Post</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Create Blog</h2>
+
+<input type="file" id="image" accept="image/*"><br><br>
+
+<img id="preview" style="max-width:200px; display:none;"><br><br>
+
+<input type="text" id="title" placeholder="Title"><br><br>
+<textarea id="content" placeholder="Content"></textarea><br><br>
+
+
+<button onclick="addPost()">Submit</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
