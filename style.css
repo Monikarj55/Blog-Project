@@ -164,3 +164,70 @@ small {
 .login-container button {
   width: 100%;
 }
+#nav{
+    height: 50px;
+    width: auto;
+    background-image: linear-gradient(to bottom, #f8f7ff, #ade8f4);
+    color: #01161e;
+    padding-left: 43%;
+    margin-top: -5px;
+   
+   }
+    #main-container{
+     height: auto;
+     width: 330px;
+     color: #f1f4f5;
+     background-image: linear-gradient(to bottom, #2c7da0, #ade8f4);
+     margin-left: 35%;
+     margin-top: 50px;
+     border-radius: 10px;
+     padding: 20px;
+     size: 16px;
+    }
+    h3{
+        
+        padding-left: 50px;
+    }
+    #todoInput{
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+    #addButton{
+        width: 50px;
+        height: 30px;
+        border-radius: 20px;
+        margin-left: 5px;
+        background-color: #caf0f8;
+        color: #01161e;
+    }
+    #addButton:hover{
+        background-color: #01161e;
+        color: #caf0f8;
+        cursor: pointer;
+    }
+    #btnDelete{
+        background-color:red;
+        
+        color: #cee0e8;
+        border-radius: 20px;
+        margin-left: 10px;
+        height: 30px;
+        width: 30px;
+        padding-left: 5px;
+        
+    }
+    #btnDelete:hover{
+        cursor: pointer;
+    }
+    h1{
+        color: #f4f3ee;
+        padding-left: 30px;
+        
+    }
+    h1:hover{
+        color: #01161e;
+        cursor: pointer;
+    }
